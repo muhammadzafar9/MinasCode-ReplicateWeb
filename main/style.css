@@ -1,0 +1,481 @@
+
+    /* .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    } */
+
+    body{
+        /* font-family: "poppins", sans-serif; */
+        font-family: "Poppins" !important;
+        /* font-weight: 400;
+        font-style: normal; */
+
+    }
+     /* Style for the smooth scroll behavior */
+     html {
+        scroll-behavior: smooth;
+    }
+  
+
+
+   
+    nav ul {
+        list-style-type: none;
+        padding: 20px;
+        margin:auto
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 24px; /* Adjust the space between the links */
+    }
+
+    /* Custom MEDIA QUERY CSS nabar button   --- CONTACT US--- */
+@media screen and (max-width: 320px) {
+    .btn-custom-navbar {
+        display: block;
+        margin: 0 auto;
+        text-align: center !important;
+        width: 125px;
+        height: 50px;
+    
+    }
+}
+
+    /* herosetion */
+    .hero-section {
+        background-color: #ffffff;
+        padding: 50px 10px 0 10px !important;
+    }
+    
+    /* hero heading and paragraph  */
+    .hero-content {
+        max-width: 1000px;
+        /* padding-right: -80px !important; */
+        font-family: "popins" !important;
+        text-align: center;
+        text-align: justify !important;
+        text-justify:auto !important;
+       
+    }
+    .hero-buttons .btn {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .home-page-main-title-left{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .btn-custom{
+        color:#ef5523 ;
+        background-color: #ffffff;
+    }
+
+    .hero-buttons #btn-unfill, #btn-1-unfill{
+        color: #ef5523;
+        background-color: #ffffff;
+        border-radius: 80px;
+        border: 1px solid #EF5523 !important;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .hero-buttons #btn-unfill:hover, #btn-1-unfill:hover{
+        background-color: #ef5523;
+        color: #ffffff !important;
+
+    }
+
+
+    .btn{
+        background: #EF5523;
+        color: white;
+        border-radius: 80px;
+        border: 1px solid #EF5523 !important;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .btn:hover{
+        background-color: #ffffff;
+        color: #ef5523 !important;
+    }
+
+    /* hero  section close  */
+
+    /* navbar section  */
+    .navbar-nav {
+    justify-content: flex-end;  /* Aligns items to the right */
+    margin-right: 150px;
+    }
+    /* universial selcetor  */
+    *{
+        box-sizing: border-box;
+        /* font-family: "Poppins" !important; */
+    }
+
+    /* close navbar ul-li-a */
+
+    /* section 3 */
+    /* hr line code  */
+    .underline {
+        width: 50px;
+        height: 3px;
+        background-color: #ff5722;
+        border: none;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+        margin: 10px 40px 0 0;
+        width: 129px;
+    }
+
+    .text-primary {
+        color: #ff5722 !important;
+        font-family: "poppins", sans-serif;;
+    }
+
+    .service-card {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-icon img {
+        max-width: 100px;
+        /* max-width: 100px; */
+    }
+
+    .bg-danger {
+        background-color: #d32f2f !important;
+    }
+
+    /* section-3 close  */
+
+
+    /* section 4 */
+    /* Advanced Tech Stacks Section    CUTTING-EDGE TECHNOLOGIES */
+    .background-container {
+        background-image: url('https://dev.minascode.com/wp-content/uploads/2023/09/Background-2.svg'); /* Replace with your background image URL */
+        background-size: cover; /* Ensures the background image covers the entire container */
+        background-position: center; /* Centers the background image */
+        padding: 10px;
+        border-radius: 60px !important;
+    background-repeat: no-repeat !important;
+            background-size: 100% 100%;
+            padding: 100px 50px 53px 50px !important;
+            border-top-left-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+            background-size: cover !important;
+    }
+    
+    .text-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 25px;
+    }
+    
+    .text-column h2{
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        display:flex;
+    
+    }
+    
+    .text-column p {
+        font-size: 1rem;
+        color: #ffff;
+        text-align: justify;
+    
+    }
+    
+    /* Ensure the image is responsive */
+    img.img-fluid {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        max-height: 600px; /* Adjust max height as needed */
+    }
+    @media (max-width:  768.98px) {
+        .text-column  {
+            text-align: center !important;
+            justify-content: center !important;
+            align-items: center;
+        }
+    }
+
+
+    /* FAQ Section */
+
+    .faq-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .faq-title {
+        text-align: center;
+        font-size: 24px;
+        color: #4D4D4D;
+    }
+    .faq-title span {
+        color: #e64a19;
+    }
+    .faq-item {
+        border-bottom: 2px solid #ddd;
+        padding: 15px 0;
+
+    }
+
+    .faq-question {
+        font-size: 1.2em;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .faq-question:hover {
+        color: #e64a19;
+    }
+    .faq-answer {
+        display: none;
+        padding: 10px 0;
+        color: #666;
+    }
+    .plus {
+        font-size: 1em;
+    }
+    /* underline   */
+    .title-line{
+        height: 2px;
+        background-color: #ff5722;
+        display: flex;
+        width: 129px;
+    
+    }
+
+
+    /* contact us from css */
+
+    .form-text{
+        text-align: center;
+    }
+
+
+
+    hr{
+        width: 50px;
+        height: 3px;
+        background-color: #dc441d;
+        border: none;
+        /* margin-top: -1rem; */
+        margin-bottom: 1.5rem;
+        margin:auto;
+        width: 129px;
+        justify-content: space-around;
+    }
+
+
+
+    h2.service-section-title.contact-section-title span {
+        color: #FF5722;
+    }
+
+    .bg-color{
+    background-color:  #ffe3d7;
+    }
+
+    .form-1 {
+        border: 1px solid #ccc;
+        border-radius: 30p
+
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        background-color: #FFECE4;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    .highlight {
+        color: #FF6347;
+    }
+
+    .form-control {
+        border-radius: 50px;
+        padding: 24px;
+        font-size: 0.9rem;
+    }
+
+    textarea.form-control {
+        border-radius: 40px;
+        padding: 20px;
+        font-size: 0.9rem;
+    }
+
+    .captcha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .captcha img {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .btn-custom-1 {
+        background-color: #FF6347;
+        border-radius: 40px;
+        border: 1px solid #EF5523;
+        padding: 10px 0px 10px 0px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    /* navbar contact us   button */
+    .btn-custom-navbar{
+        background-color:#ef5523;
+        color: #ffffff;
+
+    }
+
+    .btn-custom{
+        background-color: #FF6347;
+        border-radius: 24px;
+        border: 1px solid #EF5523;
+        width: 200px;
+    
+
+    }
+
+    /* contact us form close  */
+
+
+    /* footer css code */
+
+    .footer {
+        background-color: #ec471c !important;
+        color: white;
+        padding: 50px 0;
+        }
+
+        .footer-logo {
+        width: 250px;
+        }
+
+        .footer ul {
+        padding-left: 0;
+        list-style: none;
+        }
+        /* Main Office  */
+        .container h2{
+            margin-left: -10px !important;
+        }
+        /* address  */
+        address{
+            margin-left: -10px;
+        }
+
+        .footer ul li a {
+        color: white;
+        text-decoration: none;
+        }
+
+        .footer ul li a:hover {
+        text-decoration: underline;
+        }
+
+        .footer address {
+        font-style: normal;
+        line-height: 1.8rem;
+
+        }
+
+        .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        }
+
+        .social-links a {
+        font-size: 1.5rem;
+        }
+
+        .text-orange {
+        color: #ec471c;
+        }
+
+        .d-flex {
+        display: flex !important;
+        }
+
+        .flex-column {
+        flex-direction: column !important;
+        }
+
+        .justify-content-between {
+        justify-content: space-between !important;
+        }
+
+        .align-items-end {
+        align-items: flex-end !important;
+        }
+        /* logo minascode img  footer*/
+        .mb-4 {
+        margin-bottom: 2.8rem !important;
+        }
+
+        /* close footer  */
+
+        /* css media query  */
+        /* Media query for mobile screens */
+    /* Media query for mobile screens */
+    @media (max-width: 767px) {
+    .footer .row {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .footer .all-rights-reserved {
+    display: none;
+    }
+
+    .footer .show-on-mobile {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    }
+    }
+
+    /* Hide the mobile version on desktop screens */
+    .show-on-mobile {
+    display: none;
+    }
+    /* close media query */
